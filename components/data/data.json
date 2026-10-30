@@ -1,0 +1,472 @@
+{
+  "common": {
+    "Topbar": {
+      "contact_info": [
+        {
+          "icon": "Mail",
+          "value": "info@xyz.com"
+        },
+        {
+          "icon": "Phone",
+          "value": "+100000000000"
+        },
+        {
+          "icon": "MapPin",
+          "value": "123 Education Lane, New York, NY 10001"
+        }
+      ],
+      "socials": [
+        {
+          "icon": "Linkedin",
+          "href": "https://www.linkedin.com"
+        },
+        {
+          "icon": "Facebook",
+          "href": "https://www.facebook.com"
+        },
+        {
+          "icon": "Instagram",
+          "href": "https://www.instagram.com"
+        },
+        {
+          "icon": "Youtube",
+          "href": "https://www.youtube.com"
+        }
+      ]
+    },
+    "Header": {
+      "logo_image": "/logo/header-logo.webp",
+      "logo_text": "Nexora Technologies",
+      "logo_subtext": "IT SOLUTIONS",
+      "links": [
+        {
+          "name": "Home",
+          "href": "#home"
+        },
+        {
+          "name": "About Us",
+          "href": "#about"
+        },
+        {
+          "name": "Services",
+          "href": "#services"
+        },
+        {
+          "name": "Why Us",
+          "href": "#why-us"
+        },
+        {
+          "name": "Projects",
+          "href": "#projects"
+        },
+        {
+          "name": "Testimonials",
+          "href": "#testimonials"
+        },
+        {
+          "name": "FAQ",
+          "href": "#faq"
+        },
+        {
+          "name": "Contact",
+          "href": "#contact"
+        }
+      ],
+      "button_text": "Get In Touch",
+      "button_link": "#contact"
+    },
+    "Footer": {
+      "logo_image": "/logo/whitelogo.webp",
+      "logo_text": "Nexora Technologies",
+      "logo_subtext": "IT SOLUTIONS",
+      "description": "Nexora Technologies delivers next-gen cloud architectures, intelligent software, and enterprise IT solutions worldwide.",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "href": "https://www.linkedin.com"
+        },
+        {
+          "icon": "facebook",
+          "href": "https://www.facebook.com"
+        },
+        {
+          "icon": "instagram",
+          "href": "https://www.instagram.com"
+        },
+        {
+          "icon": "youtube",
+          "href": "https://www.youtube.com"
+        }
+      ],
+      "quick_links": [
+        {
+          "name": "Home",
+          "href": "#home"
+        },
+        {
+          "name": "About Us",
+          "href": "#about"
+        },
+        {
+          "name": "Core Services",
+          "href": "#services"
+        },
+        {
+          "name": "Why Partner With Us",
+          "href": "#why-us"
+        },
+        {
+          "name": "Featured Projects",
+          "href": "#projects"
+        },
+        {
+          "name": "Client Reviews",
+          "href": "#testimonials"
+        },
+        {
+          "name": "Technical FAQ",
+          "href": "#faq"
+        },
+        {
+          "name": "Contact & Consultation",
+          "href": "#contact"
+        }
+      ],
+      "contact": {
+        "address": "123 Education Lane, New York, NY 10001",
+        "phone": "+100000000000",
+        "email": "info@xyz.com"
+      },
+      "copyright": "Copyright © 2026. All rights reserved. Powered by Lestow"
+    }
+  },
+  "categories": {
+    "Software": {
+      "templateComponents": {
+        "template-1": {
+          "pages": {
+            "home": {
+              "title": "Home",
+              "pageName": "home",
+              "metadata": {
+                "title": "Nexora Technologies – IT Solutions | Enterprise Software & Cloud Innovation",
+                "description": "Nexora Technologies delivers high-velocity enterprise software development, resilient multi-cloud architecture, proactive cybersecurity, and tailored AI systems for global organizations."
+              },
+              "components": [
+                {
+                  "key": "HeroSection",
+                  "component": "Hero"
+                },
+                {
+                  "key": "AboutSection",
+                  "component": "About"
+                },
+                {
+                  "key": "ServicesSection",
+                  "component": "Services"
+                },
+                {
+                  "key": "WhyChooseSection",
+                  "component": "WhyChoose"
+                },
+                {
+                  "key": "ProjectsSection",
+                  "component": "Projects"
+                },
+                {
+                  "key": "TestimonialsSection",
+                  "component": "Testimonials"
+                },
+                {
+                  "key": "FaqSection",
+                  "component": "Faq"
+                },
+                {
+                  "key": "ContactSection",
+                  "component": "Contact"
+                }
+              ]
+            }
+          },
+          "sections": {
+            "hero": {
+              "slides": [
+                {
+                  "subtitle": "NEXT-GEN IT SOLUTIONS & CLOUD ENGINEERING",
+                  "title_line1": "Empowering Global Enterprises With",
+                  "title_highlight": "Intelligent Software",
+                  "title_line2": "& Cloud Resilience",
+                  "description": "Architecting high-throughput cloud architectures, bespoke enterprise software platforms, and cognitive AI workflows engineered for sustainable digital dominance.",
+                  "primary_button": {
+                    "text": "Explore Services",
+                    "href": "#services"
+                  },
+                  "image": "/banner/1.webp"
+                },
+                {
+                  "subtitle": "AUTONOMOUS CLOUD & DEVOPS MASTERY",
+                  "title_line1": "Scale Seamlessly On Resilient",
+                  "title_highlight": "Next-Gen Cloud Native",
+                  "title_line2": "Infrastructure",
+                  "description": "Modernize legacy systems into high-availability Kubernetes ecosystems with automated CI/CD pipelines, zero-downtime rollouts, and enterprise multi-cloud agility.",
+                  "primary_button": {
+                    "text": "Our Capabilities",
+                    "href": "#services"
+                  },
+                  "image": "/banner/2.webp"
+                },
+                {
+                  "subtitle": "MISSION-CRITICAL CYBER DEFENSE",
+                  "title_line1": "Fortified Security For",
+                  "title_highlight": "Enterprise Digital Assets",
+                  "title_line2": "& Modern Workloads",
+                  "description": "Zero-trust network defense, AI-powered predictive threat mitigation, continuous SIEM surveillance, and regulatory compliance protecting your enterprise data 24/7.",
+                  "primary_button": {
+                    "text": "Schedule Consultation",
+                    "href": "#contact"
+                  },
+                  "image": "/banner/3.webp"
+                }
+              ]
+            },
+            "about": {
+              "subtitle": "ABOUT NEXORA TECHNOLOGIES",
+              "title_line1": "Pioneering Digital Excellence With",
+              "title_highlight": "Strategic IT Engineering",
+              "description": "At Nexora Technologies – IT Solutions, we engineer breakthrough digital products, enterprise platforms, and cloud infrastructure that transform modern business. Merging deep domain expertise with cutting-edge tech stacks, our engineers build robust, future-ready digital foundations.",
+              "image": "/img/about.webp",
+              "features": [
+                {
+                  "icon": "users",
+                  "title": "Elite Engineering Leadership",
+                  "description": "Dedicated teams of certified cloud architects, senior full-stack developers, and AI researchers delivering measurable business value."
+                },
+                {
+                  "icon": "bulb",
+                  "title": "Architectural Innovation",
+                  "description": "Microservices, distributed event-driven systems, and reactive cloud architectures designed for limitless scalability and low latency."
+                },
+                {
+                  "icon": "chart",
+                  "title": "Demonstrated Business ROI",
+                  "description": "Delivering production-tested digital solutions that drastically reduce operational overhead while driving rapid business acceleration."
+                }
+              ],
+              "button": {
+                "text": "Connect With Us",
+                "href": "#contact"
+              }
+            },
+            "services": {
+              "subtitle": "OUR CORE CAPABILITIES",
+              "title_line1": "Transformative IT Services Built For",
+              "title_highlight": "Modern Enterprise Scale",
+              "description": "From custom cloud-native engineering to automated cyber defense, our specialized service domains empower your business at every stage of the digital lifecycle.",
+              "items": [
+                {
+                  "icon": "code",
+                  "title": "Custom Software Engineering",
+                  "description": "Tailored enterprise software, microservices, and high-performance backend platforms engineered with modern frameworks.",
+                  "color": "#D4AF37"
+                },
+                {
+                  "icon": "cloud",
+                  "title": "Cloud Infrastructure & DevOps",
+                  "description": "Multi-cloud migration, Kubernetes orchestration, CI/CD pipelines, and automated infrastructure as code.",
+                  "color": "#E5B842"
+                },
+                {
+                  "icon": "shield",
+                  "title": "Cyber Security & Zero-Trust Defense",
+                  "description": "Continuous vulnerability assessments, SIEM threat intelligence, and strict SOC 2 compliance frameworks.",
+                  "color": "#C59B27"
+                },
+                {
+                  "icon": "chart",
+                  "title": "AI & Predictive Data Intelligence",
+                  "description": "Custom machine learning models, predictive market analytics, and intelligent enterprise workflow automation engines.",
+                  "color": "#D4AF37"
+                },
+                {
+                  "icon": "smartphone",
+                  "title": "Enterprise Web & Mobile Apps",
+                  "description": "High-velocity cross-platform mobile and web applications with seamless UX/UI and sub-second load times.",
+                  "color": "#E5B842"
+                },
+                {
+                  "icon": "gear",
+                  "title": "Legacy System Modernization",
+                  "description": "Transforming complex monolithic architectures into agile, scalable, modern cloud microservices with zero operational downtime.",
+                  "color": "#C59B27"
+                }
+              ]
+            },
+            "why_choose": {
+              "subtitle": "WHY PARTNER WITH NEXORA",
+              "title_line1": "Engineering Superior Value With",
+              "title_highlight": "Uncompromising Quality",
+              "title_line2": "",
+              "image": "/img/whychooseus.webp",
+              "items": [
+                {
+                  "icon": "users",
+                  "title": "Certified Enterprise Specialists",
+                  "description": "Our senior engineering teams possess deep domain knowledge in cloud systems, high-availability architecture, and enterprise software."
+                },
+                {
+                  "icon": "bulb",
+                  "title": "Precision-Driven Agile Delivery",
+                  "description": "Rapid milestone-driven sprints, automated CI/CD deployments, and rigorous testing deliver maximum velocity without technical debt."
+                },
+                {
+                  "icon": "support",
+                  "title": "24/7 Mission-Critical Support",
+                  "description": "Round-the-clock proactive monitoring, SLA guarantees, and rapid incident response keeping your operations uninterrupted."
+                }
+              ]
+            },
+            "projects": {
+              "subtitle": "FEATURED CASE STUDIES",
+              "title_line1": "Showcasing Our Proven Impact Across",
+              "title_highlight": "Global Enterprise Scale",
+              "items": [
+                {
+                  "title": "Enterprise Cloud ERP Platform",
+                  "category": "Cloud & Enterprise SaaS",
+                  "image": "/projects/1.webp",
+                  "href": "#contact"
+                },
+                {
+                  "title": "AI Algorithmic Trading Suite",
+                  "category": "Fintech & Data Intelligence",
+                  "image": "/projects/2.webp",
+                  "href": "#contact"
+                },
+                {
+                  "title": "Cyber Threat Intelligence SIEM",
+                  "category": "Cyber Defense & Compliance",
+                  "image": "/projects/3.webp",
+                  "href": "#contact"
+                },
+                {
+                  "title": "Omnichannel Retail Cloud Platform",
+                  "category": "Headless E-Commerce",
+                  "image": "/projects/4.webp",
+                  "href": "#contact"
+                },
+                {
+                  "title": "Connected Telehealth Care Portal",
+                  "category": "Healthcare Technology",
+                  "image": "/projects/5.webp",
+                  "href": "#contact"
+                },
+                {
+                  "title": "Smart Logistics & IoT Fleet Hub",
+                  "category": "IoT & Telematics",
+                  "image": "/projects/6.webp",
+                  "href": "#contact"
+                }
+              ]
+            },
+            "testimonials": {
+              "subtitle": "TESTIMONIALS & TRUST",
+              "title_line1": "What Industry Leaders Say About",
+              "title_highlight": "Partnering With Nexora",
+              "reviews": [
+                {
+                  "text": "Nexora Technologies delivered an architectural overhaul of our core cloud infrastructure that exceeded every KPI. Their engineering squad is exceptionally disciplined, communicative, and technically brilliant.",
+                  "author": "Marcus Vance",
+                  "role": "Chief Technology Officer, HyperScale Cloud",
+                  "avatar": "/testimonials/avatar1.webp",
+                  "image": "/testimonials/client1.webp"
+                },
+                {
+                  "text": "The AI analytics engine Nexora architected for our trading desks reduced our latency by 45% while handling massive data spikes without a hitch. They are true masters of modern software engineering.",
+                  "author": "Elena Rostova",
+                  "role": "VP of Engineering, ApexFin Capital",
+                  "avatar": "/testimonials/avatar2.webp",
+                  "image": "/testimonials/client2.webp"
+                },
+                {
+                  "text": "Deploying our nationwide telehealth platform required stringent HIPAA compliance and rock-solid reliability. Nexora Technologies executed flawlessly from initial sprint to public deployment.",
+                  "author": "Dr. Julian Mercer",
+                  "role": "Director of Digital Health, Synapse Medical",
+                  "avatar": "/testimonials/avatar3.webp",
+                  "image": "/testimonials/client3.webp"
+                }
+              ]
+            },
+            "faq": {
+              "crumb": "FAQ",
+              "badge": "TECHNICAL FAQ",
+              "title": "Frequently Asked",
+              "title_highlight": "Questions",
+              "description": "Have questions about how we collaborate, our security practices, or engagement timelines? Find clear answers below or contact our solutions engineering team directly.",
+              "points": [
+                "Agile, sprint-based milestone delivery",
+                "100% intellectual property ownership transfer",
+                "Dedicated enterprise SLA guarantees"
+              ],
+              "items": [
+                {
+                  "question": "What software engagement models does Nexora Technologies offer?",
+                  "answer": "We offer flexible models tailored to your roadmap, including Dedicated Engineering Squads, Time & Materials for agile co-development, and Fixed-Scope Turnkey delivery for well-defined deliverables."
+                },
+                {
+                  "question": "How do you ensure enterprise-grade security and IP confidentiality?",
+                  "answer": "Security and IP protection are fundamental to our practice. All client code, data, and artifacts are 100% your proprietary IP covered by strict mutual NDAs. We adhere to SOC 2, ISO 27001 standards, and zero-trust repository access."
+                },
+                {
+                  "question": "How quickly can an engineering squad be onboarded and deployed?",
+                  "answer": "Following initial architectural alignment and scoping workshops, dedicated squads typically begin sprint kickoff within 1 to 2 weeks."
+                },
+                {
+                  "question": "Do you provide post-launch maintenance and 24/7 cloud support?",
+                  "answer": "Yes, our managed cloud operations provide 24/7/365 infrastructure monitoring, automated alerts, SLA-backed incident response, security patching, and continuous performance tuning."
+                },
+                {
+                  "question": "Can you modernize our existing legacy monolithic software stack?",
+                  "answer": "Absolutely. We specialize in non-disruptive cloud migrations and modular refactoring, breaking down monolithic systems into resilient microservices while maintaining complete business continuity."
+                }
+              ]
+            },
+            "contact": {
+              "eyebrow": "GET IN TOUCH",
+              "title": "Let's Architect Your Next Breakthrough Solution",
+              "description": "Connect with our senior software consultants to discuss your technical architecture, project scope, and digital transformation goals.",
+              "form_eyebrow": "SCHEDULE A CONSULTATION",
+              "form_title": "Request An Architectural Brief",
+              "form_text": "Fill in your requirements below and an engineering director will get back to you within 24 hours.",
+              "placeholders": {
+                "name": "Full Name",
+                "email": "Work Email Address",
+                "phone": "Phone Number",
+                "service": "Select Required IT Service",
+                "message": "Describe your project goals, technical requirements, and estimated timeline..."
+              },
+              "services": [
+                "Custom Software Development",
+                "Cloud Architecture & DevOps",
+                "Cyber Security & Zero-Trust Defense",
+                "AI & Predictive Data Intelligence",
+                "Enterprise Web & Mobile Apps",
+                "Legacy Modernization & Consulting"
+              ],
+              "submit": "Submit Consultation Request",
+              "privacy": "Your confidential technical details are protected under NDA.",
+              "office_image": "/img/about.webp",
+              "office_title": "Global Technology Headquarters",
+              "office_text": "Located in New York, our enterprise innovation lab hosts executive architectural briefings, rapid prototyping sessions, and cross-functional engineering teams.",
+              "address_label": "Global Headquarters",
+              "address": "123 Education Lane, New York, NY 10001",
+              "hours_label": "Business Hours",
+              "hours": "Mon - Fri: 9:00 AM - 6:00 PM PST",
+              "phone": "+100000000000",
+              "phone_href": "tel:+100000000000"
+            }
+          }
+        }
+      }
+    }
+  }
+}
